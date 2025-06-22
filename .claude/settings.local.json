@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.wbdcommunity.com)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}

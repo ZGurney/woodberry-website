@@ -1,0 +1,1 @@
+The plan for development is found in the file `technical-plan.md`. All progress and learnings/notes should be documented in that file.
