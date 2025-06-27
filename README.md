@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81d5788f-9b39-4fbb-9e12-410fc9580e48/deploy-status)](https://app.netlify.com/projects/wbdcommunity/deploys)
+
 # Woodberry Down Community Website
 
 A community website for Woodberry Down Community Building England, featuring information about programmes for children, youth, and adults in the local community.

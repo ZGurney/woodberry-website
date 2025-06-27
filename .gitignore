@@ -4,3 +4,10 @@
 # Archive and documentation files
 archive
 docs
+
+# Node.js and uv files
+node_modules/
+uv.lock
+package-lock.json
+
+.claude/
