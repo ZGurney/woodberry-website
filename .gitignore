@@ -11,3 +11,6 @@ uv.lock
 package-lock.json
 
 .claude/
+
+# Build and output directories
+_site
