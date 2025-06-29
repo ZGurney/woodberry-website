@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* Family-friendly card styling */
+  .program-card {
+    @apply bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300;
+  }
+  
+  /* Playful icon containers */
+  .icon-container {
+    @apply w-16 h-16 rounded-2xl flex items-center justify-center mb-4 shadow-md;
+  }
+  
+  .icon-container-teal {
+    @apply icon-container bg-gradient-to-br from-emerald-700 to-teal-700;
+  }
+  
+  .icon-container-orange {
+    @apply icon-container bg-gradient-to-br from-secondary to-orange-600;
+  }
+  
+  .icon-container-yellow {
+    @apply icon-container bg-gradient-to-br from-accent to-yellow-500;
+  }
+  
+  .icon-container-purple {
+    @apply icon-container bg-gradient-to-br from-purple to-violet-600;
+  }
+  
+  /* Fun buttons */
+  .btn-primary {
+    @apply bg-gradient-to-r from-emerald-700 to-teal-700 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-secondary text-secondary px-8 py-3 rounded-full font-semibold hover:bg-secondary hover:text-white transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105;
+  }
+  
+  /* Warm section backgrounds */
+  .section-warm {
+    @apply bg-gradient-to-br from-white to-cream;
+  }
+  
+  .section-peach {
+    @apply bg-gradient-to-br from-peach/30 to-orange-50;
+  }
+  
+  /* Playful headings */
+  .heading-primary {
+    @apply text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 to-teal-700;
+  }
+  
+  .heading-secondary {
+    @apply text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-secondary to-orange-600;
+  }
+  
+  /* Form styling */
+  .form-input {
+    @apply w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-4 focus:ring-primary/20 focus:border-primary transition-all duration-300;
+  }
+}
